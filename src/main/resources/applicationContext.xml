@@ -43,13 +43,13 @@
                 <prop key="hibernate.dialect">org.hibernate.dialect.MySQL57InnoDBDialect</prop>
                 <prop key="hibernate.hbm2ddl.auto">update</prop>
                 <prop key="hibernate.format_sql">true</prop>
-                <prop key="javax.persistence.validation.mode">none</prop>
+                <!--<prop key="javax.persistence.validation.mode">none</prop>-->
             </props>
         </property>
         <property name="mappingLocations">
             <list>
-                <value>classpath:com/bj58/fen/test/entity/Person.hbm.xml</value>
-                <!--<value>classpath:cn/itcast/test/entity/*.hbm.xml</value>-->
+                <!--<value>classpath:com/bj58/fen/test/entity/Person.hbm.xml</value>-->
+                <value>classpath:com/bj58/fen/test/entity/*.hbm.xml</value>
             </list>
         </property>
         <!-- 扫描并加载注解过的实体类 -->
